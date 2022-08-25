@@ -1,0 +1,616 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.bubbles img{
+	width: 20px;
+ 	animation: bubble 30s linear infinite;
+}
+.bubbles{
+ 
+  display:block;
+  top:-700px;
+  position: absolute;
+  padding-right: 20px;
+  
+}
+@keyframes bubble{
+  from{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  to{
+    transform: translateY(900vh);
+    opacity: 0.9;
+  }
+}
+.bubbles img:nth-child(1)
+{
+ animation-delay: 1s;
+ width: 30px;
+}
+.bubbles img:nth-child(2)
+{
+  width: 10px;
+ animation-delay: 19s;
+}
+.bubbles img:nth-child(3)
+{
+  width: 30px;
+ animation-delay: 3s;
+}
+.bubbles img:nth-child(4)
+{
+  width: 30px;
+ animation-delay: -4s;
+}
+.bubbles img:nth-child(5)
+{width:20px;
+ animation-delay: 6s;
+}
+.bubbles img:nth-child(6)
+{
+  width:20px;
+ animation-delay: 18s;
+}
+.bubbles img:nth-child(7)
+{
+  width: 30px;
+ animation-delay: 8s;
+}
+.bubbles img:nth-child(8)
+{
+ width: 20px; 
+ animation-delay:-9s;
+}.bubbles img:nth-child(9)
+{
+  width: 30px;
+ animation-delay: 19s;
+}.bubbles img:nth-child(10)
+{
+  width: 20px;
+ animation-delay: -9s;
+}.bubbles img:nth-child(11)
+{
+  width: 10px;
+ animation-delay: -2s;
+}.bubbles img:nth-child(12)
+{
+  width: 30px;
+ animation-delay: 11s;
+}.bubbles img:nth-child(13)
+{
+  width: 20px;
+ animation-delay: 14s;
+}.bubbles img:nth-child(14)
+{
+  width: 25px;
+ animation-delay: 5s;
+}.bubbles img:nth-child(15)
+{
+  width: 20px;
+ animation-delay: 18s;
+}.bubbles img:nth-child(16)
+{
+  width: 10px;
+ animation-delay: 7s;
+}.bubbles img:nth-child(17)
+{
+  width: 30px;
+ animation-delay: 8s;
+}
+.bubbles img:nth-child(18)
+{
+  width: 10px;
+ animation-delay: -9s;
+}.bubbles img:nth-child(19)
+{
+  width: 30px;
+ animation-delay: 0s;
+}.bubbles img:nth-child(20)
+{
+  width: 20px;
+ animation-delay: -4s;
+}.bubbles img:nth-child(21)
+{
+  width: 30px;
+ animation-delay: 12s;
+}.bubbles img:nth-child(22)
+{
+  width: 20px;
+ animation-delay: 3s;
+}.bubbles img:nth-child(23)
+{
+  width: 30px;
+ animation-delay: -4s;
+}.bubbles img:nth-child(24)
+{
+  width: 30px;
+ animation-delay:5s;
+}.bubbles img:nth-child(25)
+{
+  width: 20px;
+ animation-delay: 15s;
+}.bubbles img:nth-child(26)
+{
+  width: 30px;
+ animation-delay:-7s;
+}.bubbles img:nth-child(27)
+{
+ width:20px; 
+ animation-delay: 8s;
+}
+.bubbles img:nth-child(28)
+{
+  width:20px;
+ animation-delay: 3s;
+}
+
+.bubbles img:nth-child(29)
+{
+  width: 30px;
+ animation-delay: 0s;
+}
+.bubbles img:nth-child(30)
+{
+  width:20px;
+ animation-delay: -8s;
+}
+.bubbles img:nth-child(31)
+{
+  width: 10px;
+ animation-delay:6s;
+}
+
+.bubbles img:nth-child(32)
+{
+  width: 10px;
+ animation-delay: -8s;
+}
+
+.bubbles img:nth-child(33)
+{
+  width: 20px;
+ animation-delay:4s;
+}
+.bubbles img:nth-child(34)
+{
+  width: 30px;
+ animation-delay: 6s;
+}
+
+.bubbles img:nth-child(35)
+{
+  width: 10px;
+ animation-delay: -6s;
+}
+.bubbles img:nth-child(36)
+{
+  width: 20px;
+ animation-delay: 1s;
+}
+.bubbles img:nth-child(37)
+{
+  width:20px;
+ animation-delay: -9s;
+}
+.bubbles img:nth-child(38)
+{
+  width: 30px;
+ animation-delay: 3s;
+}
+.bubbles img:nth-child(39)
+{
+  width: 20px;
+ animation-delay: 8s;
+}
+.bubbles img:nth-child(40)
+{
+  width: 20px;
+ animation-delay: -4s;
+}
+.wrapper{
+    background:#ffffff;
+    width: 100%;
+    height:auto;
+}
+#bgimage{
+   background-image: url("./5.jpg");
+  width: 90%;
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: left;
+ 
+}
+
+hr.horizontal {
+  border: 1px solid #263238;
+}
+ .invitation{
+    color: #1c1c1c;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+.weddinghead{
+    font-weight: bold;
+   
+    color: white;
+    background: #fe7f9c;
+    padding-bottom:10px;
+}
+.couple{
+	width: 100%;
+	min-height: 70vh;
+	float: left;
+}
+.count_down{
+	width: 100%;
+	min-height: 70vh;
+	float: left;
+}
+/*** count down****/
+.countblink{
+  width:90px;
+  height:90px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius:50%;
+  float:left;
+  margin:20px; 
+
+}
+@keyframes example {
+  from {background-color: #fa86c4;box-shadow: 2px 2px 7px #fa86c4 ,0px 0px 14px #fa86c4, 0px 0px 21px #fa86c4,0px 0px 28px #fa86c4,0px 0px 35px #fa86c4;}
+  to {background-color: #fc46aa;box-shadow: 2px 2px 7px #fc46aa ,0px 0px 14px #fc46aa, 0px 0px 21px #fc46aa,0px 0px 28px #fc46aa,0px 0px 35px #fc46aa;}
+}
+.countpara{
+    font-size:18px;
+    padding-top: 15px;
+    color: white;
+    font-weight: 800;
+  }
+@media(min-width: 1000px){
+	.countblink{
+		width:180px;
+  		height:180px;
+
+	}
+	.countpara{
+		font-size:30px;
+		margin-top: 25px;
+	}
+	button.date{
+		width:50%px;height: 40px;
+		padding: 5px;
+		font-size: 20px;
+	}
+}
+
+button.date{
+    width:230px;height: 40px;
+    border-radius: 100px; 
+    background:#f25278;
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+    
+}
+.heading{ 
+    font-size: 20px;
+    color: #f25278; 
+    font-weight: bold;
+    font-family: Papyrus;
+}
+.wedding_couple{
+	width: 100%;
+	min-height: 50vh;
+	float: left;
+}
+/***couple****/
+.couple-wrap {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.couplefont{
+	font-family: Brush Script MT;
+}
+@media screen and (max-width: 768px) {
+  .couple-wrap {
+    width: 100%;
+  }
+}
+
+.js .animate-box {
+  opacity: 0;
+}
+
+.couple-half {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 768px) {
+  .couple-half {
+    width: 100%;
+  }
+   .heart{
+  	display: none;
+  }
+}
+.couple-half h3 {
+  font-family: "Sacramento", Arial, serif;
+  color: #ff1694;
+  font-weight: bold;
+  font-size: 30px;
+}
+.couple-half .groom,
+.couple-half .bride {
+  float: left;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+ 
+}
+.couple-half .groom img,
+.couple-half .bride img {
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 7px pink ,0px 0px 14px #fe7f9c;
+}
+@media screen and (max-width: 480px) {
+  .couple-half .groom,
+  .couple-half .bride {
+    width: 100%;
+    height: 140px;
+  }
+  .couple-half .groom img,
+  .couple-half .bride img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+}
+.couple-half .groom {
+  float: right;
+  margin-right: 5px;
+}
+.couple-half .bride {
+  float: left;
+  margin-left: 5px;
+}
+.couple-half .desc-groom {
+  padding-right: 180px;
+  text-align: right;
+}
+.couple-half .desc-bride {
+  padding-left: 180px;
+  text-align: left;
+}
+@media screen and (max-width: 480px) {
+  .couple-half .groom,
+  .couple-half .bride {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .couple-half .desc-groom {
+    padding-right: 0;
+    text-align: center;
+  }
+  .couple-half .desc-bride {
+    padding-left: 0;
+    text-align: center;
+  }
+  .heart{
+  	display: none;
+  }
+  .bride img{
+  	display: flex;
+  	justify-content: center;
+  }
+  .groom img{
+  	display: flex;
+  	justify-content: center;
+  }
+}
+.heart {
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  animation: pulse 1s ease infinite;
+}
+.heart i {
+  font-size: 20px;
+  background: #fff;
+  padding: 20px;
+  color: #fc46aa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.story{
+	width: 100%;
+	min-height: 90vh;
+	float: left;
+}
+.Engagement{
+	width: 100%;
+	min-height: 70vh;
+	float: left;
+}
+.video{
+  width: 100%;
+  min-height: 50vh;
+  float: left;
+
+}
+/*********************************/
+.slider img {
+    object-fit: cover;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.slider_circle_10 {
+    position: relative;
+    width: 100vw;
+    height: 70vw;
+    margin: 0 auto;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.slider_circle_10>* {
+    transition: ease 3s;
+    background: #fff;
+}
+
+.slider_circle_10>div,
+.slider_circle_10 .hidden {
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.slider_circle_10 .active {
+    opacity: 1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -25%;
+    width: 50%;
+    height: 50%;
+    z-index: 10;
+}
+
+.slider_circle_10 .prev1,
+.slider_circle_10 .next1 {
+    opacity: 0.9;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -40%;
+    width: 25%;
+    height: 25%;
+    z-index: 9;
+}
+
+.slider_circle_10 .next1 {
+    margin-left: 15%;
+}
+
+.slider_circle_10 .prev2,
+.slider_circle_10 .next2 {
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50%;
+    width: 15%;
+    height: 15%;
+    z-index: 8;
+}
+
+.slider_circle_10 .next2 {
+    margin-left: 35%;
+}
+
+.slider_circle_10 .prev3,
+.slider_circle_10 .next3 {
+    opacity: 0.5;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -50%;
+    width: 7%;
+    height: 7%;
+    z-index: 7;
+}
+
+.slider_circle_10 .next3 {
+    margin-left: 43%;
+}
+
+.slider_circle_10 .prev4,
+.slider_circle_10 .next4 {
+    opacity: 0.3;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -40%;
+    width: 3%;
+    height: 3%;
+    z-index: 6;
+}
+
+.slider_circle_10 .next4 {
+    margin-left: 37%;
+}
+
+.slider_circle_10 .prev5,
+.slider_circle_10 .next5 {
+    opacity: 0.1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -15%;
+    width: 2%;
+    height: 2%;
+    z-index: 5;
+}
+
+.slider_circle_10 .next5 {
+    margin-left: 13%;
+}
+.event{
+	background-image: url("image/wedding background.jpg");
+	width: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+#handel{
+	max-width:90%; min-height:40vh;
+}
+#handel2{
+	max-width:90%; min-height:40vh;
+}
+.main-event-icon {
+  font-size: 12px;
+  color: #fff;
+}
+.location{
+	width: 100%;
+	min-height: 80vh;
+	float: left;
+}
